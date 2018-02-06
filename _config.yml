@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+collections:
+- 2018-00
+- 2018-01
