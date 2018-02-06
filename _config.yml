@@ -1,10 +1,10 @@
 theme: jekyll-theme-minimal
 collections:
-- 2018-00
- - permalink: /:title/:path
- - title: Zero emission
- - date: 2018-01-01
-- 2018-01
- - permalink: /:title/:path
- - title: First release!
- - date: 2018-03-01
+- 2018-00:
+  - permalink: /:title/:path
+  - title: Zero emission
+  - date: 2018-01-01
+- 2018-01:
+  - permalink: /:title/:path
+  - title: First release!
+  - date: 2018-03-01
