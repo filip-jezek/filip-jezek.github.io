@@ -7,12 +7,20 @@ Hello world!
 
 here is the set of all collections:
 
-{% for issue in site.collections %}
-  <li>
-    <h6 class="post-meta">Issue {{ issue.name }} &mdash; {{ issue.date | date: "%b %-d, %Y" }}</h6>
+{% for collection in site.collections %}
 
-    <h2>
-      {{ issue.title }}
-    </h2>
-  </li>
+  {% assign name = collection.label %}
+
+  <section>
+    <h1>{{ name }}</h1>
+
+    {% for page in site.[name] %}
+    <article>
+      <h2>{{ page.title }}</h2>
+      <p>{{ page.content | markdownify }}</p>
+    </article>
+    {% endfor %}
+    
+  </section>
+
 {% endfor %}
