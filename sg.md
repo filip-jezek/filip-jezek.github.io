@@ -20,8 +20,8 @@ here is the set of all categories:
 
   <section>
     <h1>{{ name }}</h1>
-¨   {% for page in site.[name] %}
-      <p>{{ page.title }} - {{ page.category}}</p>
+    {% for page in site.[name] %}
+      <p>[{{ page.title }}]({{page.url}}) - {{ page.category}}</p>
     {% endfor %}
     
   </section>
