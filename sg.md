@@ -20,7 +20,7 @@ here is the set of all categories:
 
   <section>
     <h1>{{ name }}</h1>
-¨   {% for page in site.[name] %}
+Â¨   {% for page in site.[name] %}
       <p>{{ page.title }} - {{ page.category}}</p>
     {% endfor %}
     

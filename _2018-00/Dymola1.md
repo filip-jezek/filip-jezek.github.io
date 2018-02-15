@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dymola 7.4 FD-1
-author: Filip Jeûek
+author: Filip Je≈æek
 affil: (individual contributor)
 affil_link: http:\\www.google.com
 category: vendor

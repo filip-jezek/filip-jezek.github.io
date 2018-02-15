@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: PyFMI 2.2 
 authors: This article is provided by Maria Henningsson (Modelon)
@@ -6,7 +6,7 @@ category: Vendor
 ---
 ![Jmodelica](https://www.modelica.org/publications/newsletters/2015-1/images/PyFMI_picture.png)
 
-We are happy to announce the release of PyFMI 2.2! PyFMI comes with support for working with FMI 1.0 and 2.0, both Model-Exchange and Co-Simulation. With PyFMI�s companion package Assimulo, FMUs are simulated with a wide range of quality integration algorithms, including CVode from the Sundials suite, Radau and Implicit/Explicit Euler.
+We are happy to announce the release of PyFMI 2.2! PyFMI comes with support for working with FMI 1.0 and 2.0, both Model-Exchange and Co-Simulation. With PyFMI’s companion package Assimulo, FMUs are simulated with a wide range of quality integration algorithms, including CVode from the Sundials suite, Radau and Implicit/Explicit Euler.
 
 For this release we are glad to announce the following highlights:
 
