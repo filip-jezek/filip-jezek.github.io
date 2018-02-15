@@ -1,9 +1,6 @@
 ---
 layout:default
-title: 
-+++
-Dymola 2016 new features
-+++
+title: "Dymola 2016: new *features*"
 author:This article is provided by Dag Brück (Dassault Systèmes AB, Lund)
 category:vendor
 ---
