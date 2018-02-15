@@ -1,14 +1,14 @@
 theme: jekyll-theme-minimal
 collections:
   2015-03:
-    permalink: /:title/:path
+    permalink: /:collection/:name
     title: Old newsletter
     date: 2015-11-04
   2018-00:
-    permalink: /:title/:path
+    permalink: /:collection/:name
     title: Zero emission
     date: 2018-01-01
   2018-01:
-    permalink: /:title/:path
+    permalink: /:collection/:name
     title: First release!
     date: 2018-03-01
