@@ -16,7 +16,7 @@ here is the set of all collections:
 
     {% for page in site.[name] %}
     <article>
-      <h2>{{ page.title }} ( {{page.category}})</h2>
+      <h2>{{ page.title | markdownify }} ( {{page.category}})</h2>
       <p>{{ page.content | markdownify }}</p>
       <p>{{ page.authors | markdownify }}</p>
     </article>
