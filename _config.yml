@@ -1,5 +1,9 @@
 theme: jekyll-theme-minimal
 collections:
+  2015-03:
+    permalink: /:title/:path
+    title: Old newsletter
+    date: 2015-11-04
   2018-00:
     permalink: /:title/:path
     title: Zero emission
