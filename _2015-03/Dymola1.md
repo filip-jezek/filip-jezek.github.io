@@ -4,7 +4,7 @@ title: "Dymola 2016: new *features*"
 author: This article is provided by Dag Brück (Dassault Systèmes AB, Lund)
 category: vendor
 ---
-![cover image](dymola7_4.png)
+![cover image](Dymola7_4.png)
 
 Dassault Systèmes are delighted to announce that Dymola 2016 was released on May 29, 2015.
 
