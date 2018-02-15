@@ -12,7 +12,7 @@ We do propose the following categories:
 -  Education
 -  Library
 
-here is the set of all categories:
+here is the set of all [categories](google.com):
 
 {% for collection in site.collections %}
 
