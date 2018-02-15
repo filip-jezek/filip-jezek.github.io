@@ -15,15 +15,12 @@ We do propose the following categories:
 here is the set of all [categories](google.com):
 
 {% for collection in site.collections %}
-
+***
   {% assign name = collection.label %}
 
-  <section>
     <h1>{{ name }}</h1>
     {% for page in site.[name] %}
       [ {{ page.title }} ]( {{page.url}} ) - {{ page.category}}
     {% endfor %}
     
-  </section>
-
 {% endfor %}
