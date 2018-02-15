@@ -1,7 +1,7 @@
 theme: jekyll-theme-minimal
 collections:
   2015-03:
-    permalink: /:collection/:name
+    permalink: /:collection/:path
     title: Old newsletter
     date: 2015-11-04
     output: true
