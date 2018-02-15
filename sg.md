@@ -21,7 +21,7 @@ here is the set of all [categories](google.com):
   <section>
     <h1>{{ name }}</h1>
     {% for page in site.[name] %}
-    <p> [ {{ page.title }} ]( {{page.url}} ) - {{ page.category}}</p>
+      [ {{ page.title }} ]( {{page.url}} ) - {{ page.category}}
     {% endfor %}
     
   </section>
