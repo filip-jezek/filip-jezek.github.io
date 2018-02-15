@@ -4,6 +4,7 @@ collections:
     permalink: /:collection/:name
     title: Old newsletter
     date: 2015-11-04
+    output: true
   2018-00:
     permalink: /:collection/:name
     title: Zero emission
