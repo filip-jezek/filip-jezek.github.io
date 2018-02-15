@@ -21,7 +21,7 @@ here is the set of all categories:
   <section>
     <h1>{{ name }}</h1>
     {% for page in site.[name] %}
-      <p>[{{ page.title }}]({{page.url}}) - {{ page.category}}</p>
+  <p><a href="{{page.url}}")>{{ page.title }}</a> - {{ page.category}}</p>
     {% endfor %}
     
   </section>
