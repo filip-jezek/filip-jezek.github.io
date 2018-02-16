@@ -1,16 +1,19 @@
 ---
 index: true
+name: "2015-03"
 ---
 
 Hello world of 2015!
 
-{% for collection in site.2015-03 %}
-{% assign name = collection.label %}
-  {% for page in site.[name] %}
-  {% if page.index != true %}
+{% assign name = page.name %}
+looping through {{ page.name}}
+  {% for page in site.[name] %
+  {% if page.index == null %}
 ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
 {{ page.content | markdownify }}
 ***
+  {% else %}
+  *PAGE page {{ page.title }} SKIPPED.*
   {% endif %}
   {% endfor %}    
 {% endfor %}
