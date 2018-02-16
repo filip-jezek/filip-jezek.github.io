@@ -7,20 +7,10 @@ V3.0
 {% unless page.index %} 
 ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
 {{ page.content | markdownify }}
-*This article is provided by {{ page.author }}*
-Three or more...
-
----
-
-Hyphens
+*This article is provided by {{ page.author }}*  
 
 ***
 
-Asterisks
-
-___
-
-Underscores
-
+ 
 {% endunless %}
 {% endfor %}
