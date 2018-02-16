@@ -14,6 +14,5 @@ looping through {{ page.name}}
 ***
   {% else %}
   *PAGE page {{ page.title }} SKIPPED.*
-  {% endif %}
-  {% endfor %}    
+{% endif %}
 {% endfor %}
