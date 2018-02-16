@@ -6,8 +6,8 @@ V2.0
 
 {% unless page.index %} 
 ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
-  {{ page.content | markdownify }}
-  *{{ page.author }}*
+{{ page.content | markdownify }}
+*This article is provided by {{ page.author }}*
 ***
 {% endunless %}
 {% endfor %}
