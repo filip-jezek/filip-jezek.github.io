@@ -59,7 +59,7 @@ This code would yield the result in GitHub preview similar to this:
 | FMI User Meeting at the Modelica Conference 2015 | Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/)) | ma |
 
 
-![FMI lofo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image"){:height="250px" width="250px"}
+![FMI lofo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image"){:width="250px"}
 
 The FMI Project will organize an "**FMI User Meeting**" within the tutorial/workshop session on the first day of the Modelica Conference 2015 as a complement to the scientific track(s) on FMI.   
 The intention is to increase the interaction between FMI users in different companies / institutions and the Modelica Association Project FMI.
