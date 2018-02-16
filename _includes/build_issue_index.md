@@ -1,4 +1,5 @@
 We are building the WEB INDEX for current ISSUE!
+V2.0
 
 {% assign name = page.name %}
 {% for page in site.[name] %}
@@ -6,22 +7,7 @@ We are building the WEB INDEX for current ISSUE!
 {% unless page.index %} 
 ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
   {{ page.content | markdownify }}
+  *{{ page.author }}*
 ***
 {% endunless %}
-
-{% comment %}
-{% if page.index == null %} 
-  *PAGE {{ page.title }} null.*
-{% endif %}
-
-{% if page.index != true %} 
-  *PAGE {{ page.title }} untrue.*
-{% endif %}
-
-{% if page.index == "hitparada" %}
-  ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
-  {{ page.content | markdownify }}
-  ***
-  {% endif %}
-{% endcomment %}
-  {% endfor %}
+{% endfor %}
