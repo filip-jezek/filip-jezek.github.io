@@ -11,5 +11,6 @@ Hello world of 2015!
 ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
 {{ page.content | markdownify }}
 ***
-    {% endfor %}    
+  {% endif %}
+  {% endfor %}    
 {% endfor %}
