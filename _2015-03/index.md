@@ -5,11 +5,17 @@ name: "2015-03"
 
 Hello world of 2015!
 
+
 {% assign name = page.name %}
 looping through {{ page.name}}
-  {% for p in site.[name] %
+  {% for page in site.[name] %}
+  {% if page.index or page.index == null or page.index == false %}
+  *PAGE page {{ page.title }} SKIPPED.*
 
-## [{{ p.title }}]({{ p.url }}) - {{ p.category }}
-***
-
+{% else %}
+  ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
+  {{ page.content | markdownify }}
+  ***
+  {% endif %}
+  {% endfor %}    
 {% endfor %}
