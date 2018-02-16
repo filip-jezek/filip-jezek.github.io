@@ -8,11 +8,20 @@ Hello world of 2015!
 
 {% assign name = page.name %}
 looping through {{ page.name}}
-  {% for page in site.[name] %}
-  {% if page.index or page.index == null or page.index == false %}
-  *PAGE page {{ page.title }} SKIPPED.*
+{% for page in site.[name] %}
+{% if page.index %} 
+  *PAGE {{ page.title }} index exists.*
+{% endif %}
 
-{% else %}
+{% if page.index == null %} 
+  *PAGE {{ page.title }} null.*
+{% endif %}
+
+{% if page.index != true %} 
+  *PAGE {{ page.title }} untrue.*
+{% endif %}
+
+{% if page.index == "hitparada" %}
   ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
   {{ page.content | markdownify }}
   ***
