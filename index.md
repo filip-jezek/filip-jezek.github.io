@@ -10,10 +10,10 @@ here is the set of all collections:
 {% for collection in site.collections %}
 
   {% assign name = collection.label %}
-
+  {% unless name == "posts" %}
+  
   <section>
     <h1>{{ name }}</h1>
-
     {% for page in site.[name] %}
     {% unless page.index %}
     <article>
@@ -21,11 +21,12 @@ here is the set of all collections:
       <p>{{ page.content | markdownify }}</p>
       <p>{{ page.authors | markdownify }}</p>
     </article>
-    {% endunlessf %}
+    {% endunless %}
     {% endfor %}
     
   </section>
 
+{% endunless %}
 {% endfor %}
 
 And then there are [submission guidelines](sg.html)
