@@ -21,7 +21,7 @@ here is the set of all collections:
       <p>{{ page.content | markdownify }}</p>
       <p>{{ page.authors | markdownify }}</p>
     </article>
-    {% endif %}
+    {% endunlessf %}
     {% endfor %}
     
   </section>
