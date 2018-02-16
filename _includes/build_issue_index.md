@@ -8,6 +8,8 @@ V2.0
 ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
 {{ page.content | markdownify }}
 *This article is provided by {{ page.author }}*
+
 ***
+
 {% endunless %}
 {% endfor %}
