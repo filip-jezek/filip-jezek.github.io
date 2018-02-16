@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "XenGen: Web-Based Deployment of FMI Models"
-authors: This article is provided by Michael Tiller ([Xogeny](http://www.xogeny.com))
+author: Michael Tiller ([Xogeny](http://www.xogeny.com))
 category: "vendor"
 ---
 ![XOGENY](https://www.modelica.org/publications/newsletters/2015-1/images/iPad_Portrait_Design.png)
