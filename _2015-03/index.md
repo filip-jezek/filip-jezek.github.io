@@ -9,10 +9,14 @@ Hello world of 2015!
 {% assign name = page.name %}
 looping through {{ page.name}}
 {% for page in site.[name] %}
-{% if page.index %} 
-  *PAGE {{ page.title }} index exists.*
-{% endif %}
 
+{% unless page.index %} 
+  ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
+  {{ page.content | markdownify }}
+  ***
+{% endunless %}
+
+{% comment %}
 {% if page.index == null %} 
   *PAGE {{ page.title }} null.*
 {% endif %}
@@ -26,4 +30,5 @@ looping through {{ page.name}}
   {{ page.content | markdownify }}
   ***
   {% endif %}
+{% endcomment %}
   {% endfor %}
