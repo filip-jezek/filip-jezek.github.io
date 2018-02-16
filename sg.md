@@ -51,7 +51,7 @@ You can use the following code as a basis for your article:
     - conclusion
 
 ## Example output
-This code would yield the result in GitHub preview similar to this: \\
+This code would yield the result in GitHub preview similar to this: 
 (The table with the meta information would be stripped in the final output)
 
 | title  | author | category |
