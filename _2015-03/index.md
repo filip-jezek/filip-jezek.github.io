@@ -1,19 +1,19 @@
 ---
 index: true
 name: "2015-03"
+layout: default
 ---
 
 Hello world of 2015!
 
 
 {% assign name = page.name %}
-looping through {{ page.name}}
 {% for page in site.[name] %}
 
 {% unless page.index %} 
-  ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
+## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
   {{ page.content | markdownify }}
-  ***
+***
 {% endunless %}
 
 {% comment %}
