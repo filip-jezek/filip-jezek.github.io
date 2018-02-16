@@ -17,5 +17,4 @@ looping through {{ page.name}}
   {{ page.content | markdownify }}
   ***
   {% endif %}
-  {% endfor %}    
-{% endfor %}
+  {% endfor %}
