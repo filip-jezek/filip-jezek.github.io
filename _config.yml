@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-tactile
 collections:
   2015-03:
     permalink: /:collection/:path
