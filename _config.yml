@@ -1,4 +1,5 @@
 theme: jekyll-theme-tactile
+google_analytics: UA-114571919-1
 collections:
   2015-03:
     permalink: /:collection/:path
