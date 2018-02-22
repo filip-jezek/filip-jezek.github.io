@@ -23,7 +23,7 @@ here is the sorted set of all collections:
       
     {% for page in site.[name] %}
     {% if page.index %}
-      <li><a href="{{ page.url }}">{{ page.title | markdownify }}</a><BR />{{ page.description }}</li>
+      <li><a href="{{ page.url }}">{{ page.title }}</a><BR />{{ page.description }}</li>
     {% endif %}
     {% endfor %}
 {% endunless %}
