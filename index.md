@@ -11,17 +11,17 @@ PLease contribute! See [submission guidelines](sg.html)
 ## Newsletters
 here is the set of all collections:
 
+  
+  <section>
+    <ul> 
 {% for collection in site.collections %}
 
   {% assign name = collection.label %}
   {% unless name == "posts" %}
-  
-  <section>
-    <ul> 
-    <h3>{{ name }}</h1>
+      
     {% for page in site.[name] %}
     {% if page.index %}
-    <li>[{{ page.title | markdownify }}](page.url) <BR /> {{ page.description }}</li>
+      <li><a href="{{ page.url }}">{{ page.title | markdownify }}</a> <BR /> {{ page.description }}</li>
     {% endif %}
     {% endfor %}
     </ul>
@@ -30,5 +30,7 @@ here is the set of all collections:
 {% endunless %}
 {% endfor %}
 
+
 ## Archives
+
 * [2015-01](archives/2015-01.html)
