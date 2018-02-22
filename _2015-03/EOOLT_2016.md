@@ -2,7 +2,7 @@
 layout: default
 title: "EOOLT'2016"
 author: This article is provided by Dirk Zimmer ([DLR-SR](http://www.dlr.de/sr/en/)) and Francesco Casella (Politecnico di Milano)
-category: edu
+category: "education"
 ---
 ![INfoIcon](InfoIcon.png)
 

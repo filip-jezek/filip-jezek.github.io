@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Physiolibrary gets another minor version
-category: library
+category: "library"rary
 author: the editor
 ---
 

@@ -49,7 +49,7 @@ You can use the following code as a basis for your article:
     ---
     title: FMI User Meeting at the Modelica Conference 2015
     author: Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/))
-    category: ma
+    category: "association"
     ---
     ![FMI lofo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image")
 
