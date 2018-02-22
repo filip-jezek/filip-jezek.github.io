@@ -1,5 +1,7 @@
 theme: jekyll-theme-tactile
 google_analytics: UA-114571919-1
+current-contribution-url: "https://github.com/filip-jezek/filip-jezek.github.io/tree/master/_2018-01"
+contribution-open: true
 collections:
   2015-03:
     permalink: /:collection/:path
