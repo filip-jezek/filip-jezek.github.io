@@ -1,6 +1,8 @@
 We are building the WEB INDEX for current ISSUE!
 V4.0
 
+## Table of contents
+* seed TOC list
 {:toc}
 
 {% assign name = page.name %}
