@@ -9,12 +9,14 @@ PLease contribute! See [submission guidelines](sg.html)
 
 
 ## Newsletters
-here is the set of all collections:
+here is the sorted set of all collections:
 
   
   <section>
     <ul> 
-{% for collection in site.collections %}
+{% assign sorted = (site.collections | sort: 'date') | reverse %}
+         
+{% for collection in sorted %}
 
   {% assign name = collection.label %}
   {% unless name == "posts" %}
