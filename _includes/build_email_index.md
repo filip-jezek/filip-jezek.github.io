@@ -1,14 +1,13 @@
 This is a message to you..
 
 {% assign name = page.name %}
+
 ## Modelica association
 {% assign cat = "ma" %}
 
 {% for page in site.[name] %}
 {% if page.category == cat and page.index != true %}
-* [{{ page.title }}]({{ page.path }}) *{{ page.content | slice 0, 20 }} ...*
-{% endif %}
-
+* [{{ page.title }}]({{ page.path }})
 {% endif %}
 {% endfor %}
 
@@ -17,8 +16,6 @@ This is a message to you..
 
 {% for page in site.[name] %}
 {% if page.category == cat and page.index != true %}
-* [{{ page.title }}]({{ page.path }}) *{{ page.content | slice 0, 20 }} ...*
-{% endif %}
-
+* [{{ page.title }}]({{ page.path }})
 {% endif %}
 {% endfor %}
