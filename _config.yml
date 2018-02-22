@@ -10,7 +10,9 @@ collections:
     permalink: /:collection/:name
     title: Zero emission
     date: 2018-01-01
+    output: true
   2018-01:
     permalink: /:collection/:name
     title: First release!
     date: 2018-03-01
+    output: true
