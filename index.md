@@ -5,6 +5,10 @@ layout: default
 
 Hello world!
 
+PLease contribute! See [submission guidelines](sg.html)
+
+
+## Newsletters
 here is the set of all collections:
 
 {% for collection in site.collections %}
@@ -13,20 +17,18 @@ here is the set of all collections:
   {% unless name == "posts" %}
   
   <section>
-    <h1>{{ name }}</h1>
+    <ul> 
+    <h3>{{ name }}</h1>
     {% for page in site.[name] %}
-    {% unless page.index %}
-    <article>
-      <h2>{{ page.title | markdownify }} ({{ page.category }})</h2>
-      <p>{{ page.content | markdownify }}</p>
-      <p>{{ page.authors | markdownify }}</p>
-    </article>
-    {% endunless %}
+    {% if page.index %}
+    <li>[{{ page.title | markdownify }}](page.url) <BR /> {{ page.description }}</li>
+    {% endif %}
     {% endfor %}
-    
+    </ul>
   </section>
 
 {% endunless %}
 {% endfor %}
 
-And then there are [submission guidelines](sg.html)
+## Archives
+* [2015-01](archives/2015-01.html)
