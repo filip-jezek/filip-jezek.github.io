@@ -24,11 +24,10 @@ here is the set of all collections:
       <li><a href="{{ page.url }}">{{ page.title | markdownify }}</a> <BR /> {{ page.description }}</li>
     {% endif %}
     {% endfor %}
+{% endunless %}
+{% endfor %}    
     </ul>
   </section>
-
-{% endunless %}
-{% endfor %}
 
 
 ## Archives
