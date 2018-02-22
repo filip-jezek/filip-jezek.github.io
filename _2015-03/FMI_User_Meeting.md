@@ -2,7 +2,7 @@
 layout: default
 title: FMI User Meeting at the Modelica Conference 2015
 author: Christian Bertsch (Robert Bosch GmbH)
-category: MA
+category: ma
 ---
 ![FMI lofo](https://www.modelica.org/publications/newsletters/2015-1/images/fmi_user_meeting_1.png)
 
