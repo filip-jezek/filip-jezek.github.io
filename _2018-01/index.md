@@ -2,6 +2,7 @@
 index: true
 layout: default
 title: "2018-01"
+name: "2018-01"
 description: "Second NL in 2018 already!"
 ---
 
