@@ -22,6 +22,7 @@ here is the set of all collections:
     {% for page in site.[name] %}
     {% if page.index %}
       <li><a href="{{ page.url }}">{{ page.title | markdownify }}</a> <BR /> {{ page.description }}</li>
+**Does markdown work here?**      
     {% endif %}
     {% endfor %}
 {% endunless %}
