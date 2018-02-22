@@ -17,10 +17,7 @@ V1.0
 Hey, {{ cat }}!
 
 {% for page in site.[name] %}
-
-{{ page.title }}, {{ page.category }}...
-
 {% if page.category == cat and page.index != true %}
-[{{ page.title }}]({{ page.path }})
+* [{{ page.title }}]({{ page.path }})
 {% endif %}
 {% endfor %}

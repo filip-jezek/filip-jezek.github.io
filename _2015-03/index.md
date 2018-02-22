@@ -1,5 +1,6 @@
 ---
 index: true
+hidden: false
 layout: default
 title: "2015-03"
 name: "2015-03"
