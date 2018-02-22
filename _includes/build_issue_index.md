@@ -1,16 +1,34 @@
 We are building the WEB INDEX for current ISSUE!
-V3.0
+V4.0
+
+{:toc}
 
 {% assign name = page.name %}
-{% for page in site.[name] %}
 
-{% unless page.index %} 
+{% assign cat = "ma" %}
+{% for page in site.[name] %}
+{% if page.category == cat and page.index != true %}
 ## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
 {{ page.content | markdownify }}
+{% if page.author %}
 *This article is provided by {{ page.author }}*  
+{% endif %}
 
 ***
 
- 
-{% endunless %}
+{% endif %}
+{% endfor %}
+
+{% assign cat = "vendor" %}
+{% for page in site.[name] %}
+{% if page.category == cat and page.index != true %}
+## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
+{{ page.content | markdownify }}
+{% if page.author %}
+*This article is provided by {{ page.author }}*  
+{% endif %}
+
+***
+
+{% endif %}
 {% endfor %}
