@@ -15,7 +15,10 @@ This is a message to you..
 {% assign cat = "vendor" %}
 
 {% for page in site.[name] %}
-{% if page.category == cat and page.index != true %}
+{{ page.title }}, {{ page.category }}...
+{% if page.category == cat %}
+{% unless page.index %}
 * [{{ page.title }}]({{ page.path }})
+{% endunless %}
 {% endif %}
 {% endfor %}
