@@ -1,12 +1,14 @@
-We are building the WEB INDEX for current ISSUE!
+We are building the WEB INDEX for current ISSUE!  
 V4.0
 
 ## Table of contents
+{:.no_toc}
+
 * seed TOC list
 {:toc}
 
 {% assign name = page.name %}
-## MA
+## Modelica association
 {% assign cat = "ma" %}
 {% for page in site.[name] %}
 {% if page.category == cat and page.index != true %}
@@ -21,7 +23,7 @@ V4.0
 {% endif %}
 {% endfor %}
 
-## VENDOR
+## Vendor news
 {% assign cat = "vendor" %}
 {% for page in site.[name] %}
 {% if page.category == cat and page.index != true %}
