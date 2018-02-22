@@ -3,7 +3,20 @@ title: Submission guidelines
 layout: default
 ---
 ## Process
-Everyone is welcome to contribute a post to the Modelica newsletter, however the editor holds the right to decline without reason. Please create a pull request to the newsletter repository.
+Everyone is welcome to contribute a post to the Modelica newsletter, however the editor holds the right to decline without reason. The submission is done by creating a pull request to the dedicated newsletter repository.
+{% if site.contribution-open %}
+0. Create a GitHub account, log in.
+1. Navigate to [newsletter repository]({{site.current-contribution-url}}).
+2. Click Create new file, e.g. *my-new-post.md*
+3. Insert your post. You can reuse the example below or inspire yourself from other posts in the folder. 
+4. Commit changes. Note, that no changes has been made to the [newsletter repository]({{site.current-contribution-url}}). Instead, GitHub created your own copy (*a fork*) of the repository with your changes. 
+  * If you already have this repository forked, lets, any new changes would result in creating new branch, e.g. patch-1
+  * If you want to modify your contribution or add a local image, you have to navigate to this branch of your fork.
+{% else %}
+
+*The contributions are closed right now*
+
+{% endif %}
 
 ## Structure
 Each post should start with a header information, starting and ending with a line with three slashes '---'. Then, three meta-information shall be inserted:
