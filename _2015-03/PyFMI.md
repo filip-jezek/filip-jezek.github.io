@@ -1,8 +1,8 @@
-﻿---
+---
 layout: default
-title: PyFMI 2.2 
-authors: This article is provided by Maria Henningsson (Modelon)
-category: Vendor
+title: "PyFMI 2.2"
+author: Maria Henningsson (Modelon)
+category: vendor
 ---
 ![Jmodelica](https://www.modelica.org/publications/newsletters/2015-1/images/PyFMI_picture.png)
 

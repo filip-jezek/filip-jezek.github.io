@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Hansjürg Wiesmann obituary
-authors: Bernhard Bachmann, Bielefeld University of Applied Sciences, http:\\www.google.com
+author: Bernhard Bachmann, Bielefeld University of Applied Sciences, http:\\www.google.com
 category: MA
 ---
 
