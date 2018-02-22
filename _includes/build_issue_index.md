@@ -4,11 +4,11 @@ V4.0
 {:toc}
 
 {% assign name = page.name %}
-
+## MA
 {% assign cat = "ma" %}
 {% for page in site.[name] %}
 {% if page.category == cat and page.index != true %}
-## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
+### [{{ page.title }}]({{ page.url }}) - {{ page.category }}
 {{ page.content | markdownify }}
 {% if page.author %}
 *This article is provided by {{ page.author }}*  
@@ -19,10 +19,11 @@ V4.0
 {% endif %}
 {% endfor %}
 
+## VENDOR
 {% assign cat = "vendor" %}
 {% for page in site.[name] %}
 {% if page.category == cat and page.index != true %}
-## [{{ page.title }}]({{ page.url }}) - {{ page.category }}
+### [{{ page.title }}]({{ page.url }}) - {{ page.category }}
 {{ page.content | markdownify }}
 {% if page.author %}
 *This article is provided by {{ page.author }}*  
