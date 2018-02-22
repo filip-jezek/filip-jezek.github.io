@@ -22,7 +22,8 @@ here is the sorted set of all collections:
   {% unless name == "posts" %}
       
     {% for page in site.[name] %}
-    {% if page.index %}
+    (page.name)
+    {% if page.name == name %}
       <li><a href="{{ page.url }}">{{ page.title }}</a><BR />{{ page.description }}</li>
     {% endif %}
     {% endfor %}
