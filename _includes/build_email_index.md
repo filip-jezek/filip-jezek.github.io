@@ -4,11 +4,11 @@ V1.0
 {% assign name = page.name %}
 
 ## Modelica association
-{% assign cat = "association" %}
+{% assign cat = "vendor" %}
 
 {% for page in site.[name] %}
 {% if page.category == cat and page.index != true %}
-* [{{ page.title }}]({{site.url}}/{{ name }}/index.html\#{{ page.title | slugify }})
+* [{{ page.title }}]({{site.url}}/{{ name }}/index.html#{{ page.title | slugify }})
 {% endif %}
 {% endfor %}
 
