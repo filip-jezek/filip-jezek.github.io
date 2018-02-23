@@ -2,8 +2,8 @@
 index: true
 hidden: true
 layout: default
-title: "2015-03"
-name: "2015-03"
+title: "The first of 2018"
+name: "2018-01"
 description: "The old newsletter in a new coat - the email version"
 ---
 

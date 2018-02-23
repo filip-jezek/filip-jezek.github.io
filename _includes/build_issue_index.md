@@ -1,5 +1,4 @@
-We are building the WEB INDEX for current ISSUE!  
-V4.0
+This index is automatically build from all posts in this directory. This is the web version. You can also [view the email version](email.html) .
 
 ## Table of contents
 {:.no_toc}

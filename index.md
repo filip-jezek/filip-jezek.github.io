@@ -3,13 +3,13 @@ title: Modelica newsletters archive
 layout: default
 ---
 
-Hello world!
+Hello world! This is a newsletter archive.
 
-PLease contribute! See [submission guidelines](sg.html)
+Please contribute! See [submission guidelines](sg.html)
 
 
 ## Newsletters
-here is the sorted set of all collections:
+here is the sorted set of all sample pages:
 
   
   <section>
@@ -33,5 +33,7 @@ here is the sorted set of all collections:
 
 
 ## Archives
+
+Below is a archive of old newsletters.
 
 * [2015-01](archives/2015-01.html)
