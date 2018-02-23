@@ -7,49 +7,7 @@ V4.0
 * seed TOC list
 {:toc}
 
-include this, booyaka
+{% include build_issue_article.md section="Modelica Association" category="ma" %}
 {% include build_issue_article.md section="Vendor news" category="vendor" %}
-
-***
-
-***
-
-YOY
-
-{% assign name = page.name %}
-{% assign cat = "vendor" %}
-
-{% assign cat_posts = ((site.[name] | where:"category", cat %}
-{{ cat_posts.size }}
-
-{% if cat_posts.size > 0 %}
-## Modelica association
-{% endif %}
-
-{% for page in cat_posts %}
-{% unless page.hidden or page.index %}
-### [{{ page.title }}]({{ page.url }}) - {{ page.category }} {#{{ page.title | slugify }}}
-{{ page.content | markdownify }}
-{% if page.author %}
-*This article is provided by {{ page.author }}*  
-{% endif %}
-
-***
-
-{% endunless %}
-{% endfor %}
-
-## Vendor news
-{% assign cat = "vendor" %}
-{% for page in site.[name] %}
-{% if page.category == cat and page.index != true %}
-### [{{ page.title }}]({{ page.url }}) - {{ page.category }}
-{{ page.content | markdownify }}
-{% if page.author %}
-*This article is provided by {{ page.author }}*  
-{% endif %}
-
-***
-
-{% endif %}
-{% endfor %}
+{% include build_issue_article.md section="News from libraries" category="library" %}
+{% include build_issue_article.md section="Education news" category="education" %}
