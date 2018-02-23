@@ -19,7 +19,7 @@ V4.0
 {% endif %}
 
 {% for page in cat_posts %}
-### [{{ page.title }}]({{ page.url }}) - {{ page.category }} {#{{page.title | handleize }}
+### [{{ page.title }}]({{ page.url }}) - {{ page.category }} {#{{page.title | handleize }}}
 {{ page.content | markdownify }}
 {% if page.author %}
 *This article is provided by {{ page.author }}*  
