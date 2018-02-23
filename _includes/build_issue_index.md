@@ -7,6 +7,14 @@ V4.0
 * seed TOC list
 {:toc}
 
+include this, booyaka
+{% include build_issue_article.md section="Vendor news" category="vendor" %}
+
+***
+
+***
+
+YOY
 
 {% assign name = page.name %}
 {% assign cat = "vendor" %}
