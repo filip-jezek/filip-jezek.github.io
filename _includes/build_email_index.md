@@ -1,23 +1,7 @@
 This is a message to you..  
 V1.0
 
-{% assign name = page.name %}
-
-## Modelica association
-{% assign cat = "vendor" %}
-
-{% for page in site.[name] %}
-{% if page.category == cat and page.index != true %}
-* [{{ page.title }}]({{site.url}}/{{ name }}/index.html#{{ page.title | slugify }})
-{% endif %}
-{% endfor %}
-
-## Vendor news
-{% assign cat = "vendor" %}
-Hey, {{ cat }}!
-
-{% for page in site.[name] %}
-{% if page.category == cat and page.index != true %}
-* [{{ page.title }}]({{ page.path }})
-{% endif %}
-{% endfor %}
+{% include build_email_list_category.md section="Modelica Association" category="association" %}
+{% include build_email_list_category.md section="VENDOR" category="vendor" %}
+{% include build_email_list_category.md section="LIB" category="library" %}
+{% include build_email_list_category.md section="EDU" category="education" %}
