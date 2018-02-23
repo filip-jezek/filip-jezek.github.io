@@ -8,7 +8,7 @@ V1.0
 
 {% for page in site.[name] %}
 {% if page.category == cat and page.index != true %}
-* [{{ page.title }}]({{site.url}}/{{ name }}/{{ page.path }}\#{{ page.title | slugify }})
+* [{{ page.title }}]({{site.url}}/{{ name }}/index.html\#{{ page.title | slugify }})
 {% endif %}
 {% endfor %}
 
