@@ -19,7 +19,8 @@ V4.0
 {% endif %}
 
 {% for page in cat_posts %}
-### [{{ page.title }}]({{ page.url }}) - {{ page.category }} {#{{page.title | handleize }}}
+{% unless page.hidden or page.index %}
+### [{{ page.title }}]({{ page.url }}) - {{ page.category }} {#{{ page.title | slugify }}}
 {{ page.content | markdownify }}
 {% if page.author %}
 *This article is provided by {{ page.author }}*  
@@ -27,6 +28,7 @@ V4.0
 
 ***
 
+{% endunless %}
 {% endfor %}
 
 ## Vendor news
