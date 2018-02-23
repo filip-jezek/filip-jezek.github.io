@@ -7,12 +7,19 @@ V4.0
 * seed TOC list
 {:toc}
 
+
 {% assign name = page.name %}
+{% assign cat = "vendor" %}
+
+{% assign cat_posts = ((site.[name] | where:"category", cat %}
+{{ cat_posts.size }}
+
+{% if cat_posts.size > 0 %}
 ## Modelica association
-{% assign cat = "ma" %}
-{% for page in site.[name] %}
-{% if page.category == cat and page.index != true %}
-### [{{ page.title }}]({{ page.url }}) - {{ page.category }}
+{% endif %}
+
+{% for page in cat_posts %}
+### [{{ page.title }}]({{ page.url }}) - {{ page.category }} {#{{page.title | handleize }}
 {{ page.content | markdownify }}
 {% if page.author %}
 *This article is provided by {{ page.author }}*  
@@ -20,7 +27,6 @@ V4.0
 
 ***
 
-{% endif %}
 {% endfor %}
 
 ## Vendor news
