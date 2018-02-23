@@ -3,7 +3,6 @@
 {% assign section  = include.section %}
 
 {% assign cat_posts = ((site.[name] | where:"category", cat %}
-{{ cat_posts.size }}
 
 {% if cat_posts.size > 0 %}
 ## {{ section }}

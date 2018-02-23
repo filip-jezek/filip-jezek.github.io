@@ -10,9 +10,11 @@ Everyone is welcome to contribute a post to the Modelica newsletter, however the
 2. Click Create new file, e.g. *my-new-post.md*
 3. Insert your post. You can reuse the example below or inspire yourself from other posts in the folder. 
 4. Commit changes. Note, that no changes has been made to the [newsletter repository]({{site.current-contribution-url}}). Instead, GitHub created your own copy (*a fork*) of the repository with your changes. 
-  * If you already have this repository forked, lets, any new changes would result in creating new branch, e.g. patch-1
-  * If you want to modify your contribution or add a local image, you have to navigate to this branch of your fork.
-{% else %}
+   * If you already have this repository forked, you may create a new branch from the original repository.
+   * If you want to modify your contribution or add a local image, you have to navigate to this branch of your fork.
+5. Navigate to the branch of your fork (e.g. patch-1) and click on Create Pull-request. 
+6. Submit the pull request.
+  {% else %}
 
 *The contributions are closed right now*
 
