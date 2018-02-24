@@ -5,7 +5,7 @@ layout: default
 
 Hello world! This is a newsletter archive.
 
-Please contribute! See [submission guidelines](sg.html)
+Please contribute! See [submission guidelines](submission-guidelines.html)
 
 
 ## Newsletters
