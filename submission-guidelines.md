@@ -35,7 +35,9 @@ Each post should start with a header information, starting and ending with a lin
 For the text body, use the [kramdown](https://kramdown.gettalong.org/) flavor of the Markdown syntax. See the [quick reference](https://kramdown.gettalong.org/quickref.html).
 
 ### Text style
-You can use **emphasize** by double asterisks `**emphasize**`or *italics* using single asterisks `*italics*`
+You can use **emphasize** by double asterisks (`**emphasize**`) or *italics* using single asterisks (`*italics*`).
+
+It is easy to create [hyperlinks](https://en.wikipedia.org/wiki/Hyperlink) (as `[hyperlinks](https://en.wikipedia.org/wiki/Hyperlink)`)
 
 ### Images
 Each post is welcome to have at least one image. If you commit the image together with your post, you can link it relatively, i. e.
@@ -47,7 +49,7 @@ or if the image resides online, you can also provide an absolute address, e.g.
     ![](https://modelica.org/logo.jpg)
     
 ### Preview
-If writing directly in GitHub, make use of the *Preview changes* - a live formatted preview of your text, including the images.
+If writing directly in GitHub, make use of the *Preview changes* - which offers a live formatted preview of your text, including the images.
 
 ## Example
 You can use the following code as a basis for your article:
