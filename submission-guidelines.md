@@ -9,10 +9,11 @@ Everyone is welcome to contribute a post to the Modelica newsletter, however the
 1. Navigate to [newsletter repository]({{site.current-contribution-url}}).
 2. Click Create new file, e.g. *my-new-post.md*
 3. Insert your post. You can reuse the example below or inspire yourself from other posts in the folder. 
-4. Commit changes. Note, that no changes has been made to the [newsletter repository]({{site.current-contribution-url}}). Instead, GitHub created your own copy (*a fork*) of the repository with your changes. 
+4. Commit changes. 
+   * Note, that no changes has been made to the [newsletter repository]({{site.current-contribution-url}}). Instead, GitHub created your own copy (*a fork*) of the repository with your changes. 
    * If you already have this repository forked, you may create a new branch from the original repository.
-   * If you want to modify your contribution or add a local image, you have to navigate to this branch of your fork.
-5. Navigate to the branch of your fork (e.g. patch-1) and click on Create Pull-request. 
+   * If you want to modify your contribution or add a local image, you have to navigate to this branch of your fork (e.g. patch-1) and click on Create Pull-request.
+5. Create pull-request   
 6. Submit the pull request.
   {% else %}
 
@@ -33,35 +34,39 @@ Each post should start with a header information, starting and ending with a lin
 ## Markdown syntax   
 For the text body, use the [kramdown](https://kramdown.gettalong.org/) flavor of the Markdown syntax. See the [quick reference](https://kramdown.gettalong.org/quickref.html).
 
-## Images
-Each post is welcome to have one image. Please commit the image together with your post, e.g.
+### Text style
+You can use **emphasize** by double asterisks `**emphasize**`or *italics* using single asterisks `*italics*`
+
+### Images
+Each post is welcome to have at least one image. If you commit the image together with your post, you can link it relatively, i. e.
 
     ![](logo.jpg)
 
-or provide an absolute address, e.g.
+or if the image resides online, you can also provide an absolute address, e.g.
 
     ![](https://modelica.org/logo.jpg)
     
-## Preview
+### Preview
 If writing directly in GitHub, make use of the *Preview changes* - a live formatted preview of your text, including the images.
 
 ## Example
 You can use the following code as a basis for your article:
 
     ---
-    title: FMI User Meeting at the Modelica Conference 2015
-    author: Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/))
-    category: "association"
+    | title  | author | category |
+    | :----: | :----: | :----: | 
+    | FMI User Meeting at the Modelica Conference 2015 | Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/)) | ma |
     ---
-    ![FMI lofo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image")
 
-    The FMI Project will organize an "**FMI User Meeting**" within the tutorial/workshop session on the first day of the Modelica Conference 2015 as a complement to the scientific track(s) on FMI. *(Notice the line break here)*\
+    ![FMI logo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image"){:width="250px"}
+
+    The FMI Project will organize an "**FMI User Meeting**" within the tutorial/workshop session on the first day of the Modelica Conference 2015 as a complement to the scientific track(s) on FMI.   
     The intention is to increase the interaction between FMI users in different companies / institutions and the Modelica Association Project FMI.
 
     ### Agenda
     - FMI overview
     - FMI current status
-    - future developments \\
+    - future developments   
       (a longer discussion is anticipated here)
     - conclusion
 
@@ -74,7 +79,7 @@ This code would yield the result in GitHub preview similar to this:
 | FMI User Meeting at the Modelica Conference 2015 | Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/)) | ma |
 
 
-![FMI lofo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image"){:width="250px"}
+![FMI logo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image"){:width="250px"}
 
 The FMI Project will organize an "**FMI User Meeting**" within the tutorial/workshop session on the first day of the Modelica Conference 2015 as a complement to the scientific track(s) on FMI.   
 The intention is to increase the interaction between FMI users in different companies / institutions and the Modelica Association Project FMI.
