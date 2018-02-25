@@ -1,7 +1,7 @@
 ---
-| title  | author | category |
-| :----: | :----: | :----: | 
-| FMI Design meeting April 2018 in Dresden | Andreas Junghanns ([QTronic GmbH](https://www.qtronic.de/)) | ma |
+title: FMI Design meeting April 2018 in Dresden
+author: Andreas Junghanns ([QTronic GmbH](https://www.qtronic.de/))
+category: "association"
 ---
 
 ![FMI logo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image"){:width="50px"}
