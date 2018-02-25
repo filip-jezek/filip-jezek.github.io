@@ -55,9 +55,9 @@ If writing directly in GitHub, make use of the *Preview changes* - which offers 
 You can use the following code as a basis for your article:
 
     ---
-    | title  | author | category |
-    | :----: | :----: | :----: | 
-    | FMI User Meeting at the Modelica Conference 2015 | Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/)) | ma |
+    title: FMI User Meeting at the Modelica Conference 2015
+    author: "Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/))"
+    category: "association"
     ---
 
     ![FMI logo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image"){:width="250px"}
@@ -78,7 +78,7 @@ This code would yield the result in GitHub preview similar to this:
 
 | title  | author | category |
 | :----: | :----: | :----: | 
-| FMI User Meeting at the Modelica Conference 2015 | Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/)) | ma |
+| FMI User Meeting at the Modelica Conference 2015 | Christian Bertsch ([Robert Bosch GmbH](https://www.bosch.com/)) | association |
 
 
 ![FMI logo](http://fmi-standard.org/assets/img/fmi-logo.svg "FMI image"){:width="250px"}
