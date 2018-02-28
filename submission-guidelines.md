@@ -6,12 +6,7 @@ layout: default
 Everyone is welcome to contribute a post to the Modelica newsletter, however the editor holds the right to decline without reason. The submission is done by creating a pull request to the dedicated newsletter repository.
 {% if site.contribution-open %}
 
-{% assign cur-iss = site.current-issue %}
-{% assign cur-col = site.2018-01 %}
-{% assign deadline = cur-col.submission-deadline %}
-{% assign date = cur-col.date %}
-
-The submissions are currently open! The contribution to {{ cur-iss }} deadline is {{ deadline }}. The newsletter would be published on {{ date }}. v2
+The submissions are currently open! The deadline for contributions to the current issue is {{ contribution-deadline }}. The newsletter would be published on {{ current-newsletter-date }}.
 
 0. Create a GitHub account, log in.
 1. Navigate to the [newsletter repository]({{site.current-contribution-url}}).
