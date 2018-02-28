@@ -2,7 +2,8 @@ theme: jekyll-theme-tactile
 google_analytics: UA-114571919-1
 current-contribution-url: "https://github.com/filip-jezek/filip-jezek.github.io/tree/master/_2018-01"
 contribution-open: true
-current-issue: 2018-01
+contribution-deadline: 23 March
+current-newsletter-date: 02 April
 url: "https://filip-jezek.github.io"
 collections:
   2015-03:
@@ -13,7 +14,6 @@ collections:
   2018-01:
     permalink: /:collection/:path
     title: First release!
-    submission-deadline: 23rd March   
     date: 2018-04-02
     output: true
   2018-00:
