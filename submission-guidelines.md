@@ -7,11 +7,11 @@ Everyone is welcome to contribute a post to the Modelica newsletter, however the
 {% if site.contribution-open %}
 
 {% assign cur-iss = site.current-issue %}
-{% assign cur-col = site.[cur-iss] %}
+{% assign cur-col = site.2018-01 %}
 {% assign deadline = cur-col.submission-deadline %}
 {% assign date = cur-col.date %}
 
-The submissions are currently open! The contribution to {{ cur-iss }} deadline is {{ deadline }}. The newsletter would be published on {{ date }}.
+The submissions are currently open! The contribution to {{ cur-iss }} deadline is {{ deadline }}. The newsletter would be published on {{ date }}. v2
 
 0. Create a GitHub account, log in.
 1. Navigate to the [newsletter repository]({{site.current-contribution-url}}).
